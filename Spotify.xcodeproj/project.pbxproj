@@ -29,6 +29,7 @@
 		5D0CD82B2B691E34008AED7A /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CD82A2B691E34008AED7A /* AudioTrack.swift */; };
 		5D0CD82D2B691E3C008AED7A /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CD82C2B691E3C008AED7A /* Artist.swift */; };
 		5D0CD82F2B691E4A008AED7A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CD82E2B691E4A008AED7A /* UserProfile.swift */; };
+		5D4592DB2B6A9D2D00F46003 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4592DA2B6A9D2D00F46003 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		5D0CD82A2B691E34008AED7A /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		5D0CD82C2B691E3C008AED7A /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		5D0CD82E2B691E4A008AED7A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		5D4592DA2B6A9D2D00F46003 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				5D0CD7F22B6919BE008AED7A /* AppDelegate.swift */,
 				5D0CD7FB2B6919C0008AED7A /* Assets.xcassets */,
 				5D0CD7F42B6919BE008AED7A /* SceneDelegate.swift */,
+				5D4592DA2B6A9D2D00F46003 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				5D0CD8152B691CCE008AED7A /* AuthViewController.swift in Sources */,
 				5D0CD7F32B6919BE008AED7A /* AppDelegate.swift in Sources */,
 				5D0CD82F2B691E4A008AED7A /* UserProfile.swift in Sources */,
+				5D4592DB2B6A9D2D00F46003 /* Extensions.swift in Sources */,
 				5D0CD8112B691C84008AED7A /* LibraryViewController.swift in Sources */,
 				5D0CD82D2B691E3C008AED7A /* Artist.swift in Sources */,
 				5D0CD81F2B691D1F008AED7A /* PlaylistViewController.swift in Sources */,
