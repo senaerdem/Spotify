@@ -30,6 +30,7 @@
 		5D0CD82D2B691E3C008AED7A /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CD82C2B691E3C008AED7A /* Artist.swift */; };
 		5D0CD82F2B691E4A008AED7A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CD82E2B691E4A008AED7A /* UserProfile.swift */; };
 		5D43A0E02B6BB500002224DC /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43A0DF2B6BB500002224DC /* AuthResponse.swift */; };
+		5D43A0E22B6C27F0002224DC /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43A0E12B6C27F0002224DC /* SettingsModels.swift */; };
 		5D4592DB2B6A9D2D00F46003 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4592DA2B6A9D2D00F46003 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		5D0CD82C2B691E3C008AED7A /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		5D0CD82E2B691E4A008AED7A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		5D43A0DF2B6BB500002224DC /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		5D43A0E12B6C27F0002224DC /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
 		5D4592DA2B6A9D2D00F46003 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 				5D0CD82C2B691E3C008AED7A /* Artist.swift */,
 				5D0CD82E2B691E4A008AED7A /* UserProfile.swift */,
 				5D43A0DF2B6BB500002224DC /* AuthResponse.swift */,
+				5D43A0E12B6C27F0002224DC /* SettingsModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				5D4592DB2B6A9D2D00F46003 /* Extensions.swift in Sources */,
 				5D0CD8112B691C84008AED7A /* LibraryViewController.swift in Sources */,
 				5D0CD82D2B691E3C008AED7A /* Artist.swift in Sources */,
+				5D43A0E22B6C27F0002224DC /* SettingsModels.swift in Sources */,
 				5D0CD81F2B691D1F008AED7A /* PlaylistViewController.swift in Sources */,
 				5D0CD7F52B6919BE008AED7A /* SceneDelegate.swift in Sources */,
 				5D0CD81D2B691D0E008AED7A /* PlayerViewController.swift in Sources */,

@@ -16,7 +16,6 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         let config = WKWebViewConfiguration()
         config.defaultWebpagePreferences = prefs
         let webView = WKWebView(frame: .zero, configuration: config)
-        
         return webView
     }()
     
@@ -52,8 +51,10 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         webView.isHidden = true
         print("Code: \(code)")
         AuthManager.shared.exchangeCodeForToken(code: code) { [weak self] success in
-            self?.navigationController?.popViewController(animated: true)
-            self?.completionHandler?(success)
+            DispatchQueue.main.async {
+                self?.navigationController?.popViewController(animated: true)
+                self?.completionHandler?(success)
+            }
         }
     }
 }
