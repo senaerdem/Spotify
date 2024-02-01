@@ -49,6 +49,11 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         else {
             return
         }
+        webView.isHidden = true
         print("Code: \(code)")
+        AuthManager.shared.exchangeCodeForToken(code: code) { [weak self] success in
+            self?.navigationController?.popViewController(animated: true)
+            self?.completionHandler?(success)
+        }
     }
 }

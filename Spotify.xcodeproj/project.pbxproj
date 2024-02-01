@@ -29,6 +29,7 @@
 		5D0CD82B2B691E34008AED7A /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CD82A2B691E34008AED7A /* AudioTrack.swift */; };
 		5D0CD82D2B691E3C008AED7A /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CD82C2B691E3C008AED7A /* Artist.swift */; };
 		5D0CD82F2B691E4A008AED7A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CD82E2B691E4A008AED7A /* UserProfile.swift */; };
+		5D43A0E02B6BB500002224DC /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43A0DF2B6BB500002224DC /* AuthResponse.swift */; };
 		5D4592DB2B6A9D2D00F46003 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4592DA2B6A9D2D00F46003 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		5D0CD82A2B691E34008AED7A /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		5D0CD82C2B691E3C008AED7A /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		5D0CD82E2B691E4A008AED7A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		5D43A0DF2B6BB500002224DC /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		5D4592DA2B6A9D2D00F46003 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 				5D0CD82A2B691E34008AED7A /* AudioTrack.swift */,
 				5D0CD82C2B691E3C008AED7A /* Artist.swift */,
 				5D0CD82E2B691E4A008AED7A /* UserProfile.swift */,
+				5D43A0DF2B6BB500002224DC /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				5D0CD81B2B691CFE008AED7A /* ProfileViewController.swift in Sources */,
 				5D0CD80D2B691C24008AED7A /* TabBarViewController.swift in Sources */,
 				5D0CD8272B691DF5008AED7A /* HapticsManager.swift in Sources */,
+				5D43A0E02B6BB500002224DC /* AuthResponse.swift in Sources */,
 				5D0CD82B2B691E34008AED7A /* AudioTrack.swift in Sources */,
 				5D0CD7F72B6919BE008AED7A /* HomeViewController.swift in Sources */,
 				5D0CD8152B691CCE008AED7A /* AuthViewController.swift in Sources */,
